@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sensor-Stream</string>
+    <string name="title_activity_main">Sensor-Stream</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+</resources>
