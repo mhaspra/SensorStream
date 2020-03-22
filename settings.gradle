@@ -1,2 +1,5 @@
 rootProject.name='SensorStream'
 include ':app'
+include ':application'
+include ':domain'
+include ':adapters'
