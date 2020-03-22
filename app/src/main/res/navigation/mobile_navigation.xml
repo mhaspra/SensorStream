@@ -12,4 +12,9 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/nav_endpoints"
+        android:name="ch.mhaspra.sensorstream.ui.endpoints.EndpointsFragment"
+        android:label="@string/menu_endpoints"
+        tools:layout="@layout/fragment_endpoints" />
 </navigation>
