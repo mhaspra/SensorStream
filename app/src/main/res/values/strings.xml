@@ -8,4 +8,5 @@
     <string name="menu_home">Home</string>
 
     <string name="menu_endpoints">Endpoints</string>
+    <string name="endpoint_list_item_icon_text">icon</string>
 </resources>
