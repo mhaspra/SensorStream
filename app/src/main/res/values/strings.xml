@@ -9,4 +9,10 @@
 
     <string name="menu_endpoints">Endpoints</string>
     <string name="endpoint_list_item_icon_text">icon</string>
+    <string name="add_endpoint">Add Endpoint</string>
+    <string name="add_endpoint_name">Name</string>
+    <string name="add_endpoint_url">URL</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
 </resources>
