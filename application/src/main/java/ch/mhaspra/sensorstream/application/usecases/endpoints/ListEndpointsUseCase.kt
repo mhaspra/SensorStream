@@ -2,7 +2,7 @@ package ch.mhaspra.sensorstream.application.usecases.endpoints
 
 import ch.mhaspra.sensorstream.domain.Endpoint
 
-class ListEndpointsUseCase() {
+class ListEndpointsUseCase {
     fun invoke(endpointsPresenter: (List<Endpoint>) -> Unit) {
         endpointsPresenter(
             listOf<Endpoint>(
