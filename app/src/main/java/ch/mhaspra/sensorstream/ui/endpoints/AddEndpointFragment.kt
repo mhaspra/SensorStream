@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.EditText
 import androidx.fragment.app.DialogFragment
 import ch.mhaspra.sensorstream.R
+import ch.mhaspra.sensorstream.UseCaseLocator
 import ch.mhaspra.sensorstream.application.usecases.endpoints.AddEndpointUseCase
 
 class AddEndpointFragment : DialogFragment() {
@@ -20,7 +21,7 @@ class AddEndpointFragment : DialogFragment() {
                     val nameText = dialog?.findViewById<EditText>(R.id.add_endpoint_name)
                     val urlText = dialog?.findViewById<EditText>(R.id.add_endpoint_url)
 
-                    AddEndpointUseCase().invoke(nameText?.text.toString(), urlText?.text.toString())
+                    UseCaseLocator.getAddEndpointUseCase().invoke(nameText?.text.toString(), urlText?.text.toString())
                 }
                 .setNegativeButton(R.string.btn_cancel) { _, _ ->
                     // Nothing to do on cancel

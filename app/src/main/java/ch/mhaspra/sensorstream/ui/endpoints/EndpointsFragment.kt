@@ -15,7 +15,6 @@ import com.google.android.material.snackbar.Snackbar
 
 class EndpointsFragment : Fragment() {
 
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

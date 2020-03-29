@@ -4,4 +4,6 @@ import ch.mhaspra.sensorstream.domain.Endpoint
 
 interface EndpointRepository {
     fun findAll() : List<Endpoint>
+
+    fun save(endpoint: Endpoint)
 }
