@@ -17,4 +17,10 @@
         android:name="ch.mhaspra.sensorstream.ui.endpoints.EndpointsFragment"
         android:label="@string/menu_endpoints"
         tools:layout="@layout/fragment_endpoints" />
+
+    <fragment
+        android:id="@+id/nav_streams"
+        android:name="ch.mhaspra.sensorstream.ui.streams.StreamsFragment"
+        android:label="@string/menu_streams"
+        tools:layout="@layout/fragment_streams" />
 </navigation>

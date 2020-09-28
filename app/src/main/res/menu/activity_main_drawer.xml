@@ -12,6 +12,10 @@
             android:id="@+id/nav_endpoints"
             android:icon="@android:drawable/ic_menu_share"
             android:title="@string/menu_endpoints" />
+        <item
+            android:id="@+id/nav_streams"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="@string/menu_streams" />
     </group>
 
 </menu>

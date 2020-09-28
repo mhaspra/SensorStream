@@ -13,6 +13,11 @@
     <string name="add_endpoint_name">Name</string>
     <string name="add_endpoint_url">URL</string>
 
+    <string name="menu_streams">Streams</string>
+    <string name="stream_list_item_icon_text">icon</string>
+    <string name="add_stream">Add Stream</string>
+    <string name="add_stream_name">Name</string>
+
     <string name="btn_save">Save</string>
     <string name="btn_cancel">Cancel</string>
 </resources>
